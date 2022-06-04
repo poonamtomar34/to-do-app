@@ -25,6 +25,7 @@ const Index = () => {
   };
   return (
     <>
+    <h3>Add tasks</h3>
       {state.isModalOpen && (
         <Modal closeModal={closeModal} modalContent={state.modalContent} />
       )}
